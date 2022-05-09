@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="background" stylesheets="@css/tenda.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lloretenriquez.jaume.tenda.controller.LoginController">
+   <children>
+      <VBox alignment="CENTER_RIGHT" layoutX="250.0" layoutY="150.0" maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" styleClass="login-bg" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="150.0">
+         <children>
+            <Label alignment="CENTER" maxWidth="270.0" minWidth="270.0" prefWidth="270.0" styleClass="shop-title" text="La JaviTienda" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <HBox maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" maxHeight="30.0" maxWidth="60.0" minHeight="30.0" minWidth="60.0" prefHeight="30.0" prefWidth="60.0" styleClass="shop-label" text="Usuario" textAlignment="CENTER">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="userTextFill" maxHeight="30.0" maxWidth="210.0" minHeight="30.0" minWidth="210.0" prefHeight="30.0" prefWidth="210.0" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="30.0" maxWidth="60.0" minHeight="30.0" minWidth="60.0" prefHeight="30.0" prefWidth="60.0" styleClass="shop-label" text="Password">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="passwordTextFill" maxHeight="30.0" maxWidth="210.0" minHeight="30.0" minWidth="210.0" prefHeight="30.0" prefWidth="210.0" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#login" prefHeight="19.0" prefWidth="60.0" text="Sign in" textAlignment="CENTER">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="btn-outline-primary" />
+               </styleClass>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
