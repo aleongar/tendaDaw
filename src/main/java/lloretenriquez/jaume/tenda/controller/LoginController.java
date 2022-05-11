@@ -7,6 +7,7 @@ import lloretenriquez.jaume.tenda.bussines.DDBB;
 public class LoginController {
     @FXML
     private TextField userTextFill;
+
     @FXML
     private TextField passwordTextFill;
 
